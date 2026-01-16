@@ -29,7 +29,6 @@ public class AnalysisServiceTest {
         customer3 = new Customer("N003", "Морозов Ярослав", "morozzoff@mail.com",
                 LocalDateTime.now().minusDays(1), 19, "Борисов");
 
-        // Создаем тестовые заказы
         Order order1 = new Order("R001", LocalDateTime.now().minusDays(10),
                 customer1, Arrays.asList(
                 new OrderItem("Ноутбук", 2, 60000.0,
