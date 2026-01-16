@@ -1,12 +1,9 @@
 package com.innowise.orders.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
 public class OrderItem {
     private String productName;
     private int quantity;
